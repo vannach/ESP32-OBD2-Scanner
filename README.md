@@ -1,5 +1,12 @@
 # ESP32-OBD2-Scanner
 
+A simple and standalone **ESP32-based OBD2 scanner** with a **WiFi web interface**.  
+The ESP32 creates its own WiFi Access Point, allowing you to connect directly with your smartphone and view OBD2 data and clear trouble codes (DTCs) via a web browser.
+
+✅ No mobile app required  
+✅ No internet connection required  
+✅ Works directly in the car 
+
 ## 📁 Project Structure
 
 - src/        Arduino source code
@@ -7,17 +14,9 @@
 - images/     Pictures and screenshots
 - README.md   Informations and instructions
 
-
-A simple and standalone **ESP32-based OBD2 scanner** with a **WiFi web interface**.  
-The ESP32 creates its own WiFi Access Point, allowing you to connect directly with your smartphone and view OBD2 data and clear trouble codes (DTCs) via a web browser.
-
-✅ No mobile app required  
-✅ No internet connection required  
-✅ Works directly in the car  
-
 ---
 
-## ✨ Features
+### ✨ Features
 
 - ESP32 runs as **WiFi Access Point**
 - Read CAN with SN65HVD230
@@ -27,7 +26,7 @@ The ESP32 creates its own WiFi Access Point, allowing you to connect directly wi
 - You can add your own Features later
 ---
 
-## 🧰 Hardware Requirements
+#### 🧰 Hardware Requirements
 
 - ESP32 (tested with **ESP32-WROOM-32U**)   ~ 5$
 - CAN Transceiver: **SN65HVD230**           ~ 3$
@@ -35,7 +34,7 @@ The ESP32 creates its own WiFi Access Point, allowing you to connect directly wi
 - 12V → 5V  **DC-DC converter**             ~ 2$
 - Android or iOS smartphone
 
-### Wiring
+##### Wiring
 | OBD2 connector Pin 16 12V+ | DC-DC converter IN+ |
 | OBD2 connector Pin 4 + Bridge to Pin 5 GRN | DC-DC converter IN- |
 
@@ -54,7 +53,7 @@ Never connect 12V directly to the ESP32.
 
 ---
 
-## 📡 WiFi Access Point
+###### 📡 WiFi Access Point
 
 The ESP32 creates its own WiFi network:
 
