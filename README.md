@@ -1,5 +1,13 @@
 # ESP32-OBD2-Scanner
 
+## 📁 Project Structure
+ESP32-OBD2-Scanner/
+├── src/        Arduino source code
+├── docs/       Schematics (PDF)
+├── images/     Pictures and screenshots
+└── README.md   Informations and instructions
+
+
 A simple and standalone **ESP32-based OBD2 scanner** with a **WiFi web interface**.  
 The ESP32 creates its own WiFi Access Point, allowing you to connect directly with your smartphone and view OBD2 data and clear trouble codes (DTCs) via a web browser.
 
