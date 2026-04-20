@@ -18,20 +18,20 @@ The ESP32 creates its own WiFi Access Point, allowing you to connect directly wi
 
 ### ✨ Features
 
-- ESP32 runs as **WiFi Access Point**
-- Read CAN with SN65HVD230
-- Read Faults and other informations directly in web browser
+- ESP32 runs as a **WiFi Access Point**
+- CAN communication using **SN65HVD230**
+- Read vehicle data directly in a web browser
 - Web dashboard accessible from any smartphone or browser
-- Clear Diagnostic Trouble Codes (OBD Mode 04)
-- You can add your own Features later
+- Clear Diagnostic Trouble Codes (**OBD Mode 04**)
+- Easily extendable with additional features
 ---
 
 #### 🧰 Hardware Requirements
 
-- ESP32 (tested with **ESP32-WROOM-32U**)   ~ 5$
-- CAN Transceiver: **SN65HVD230**           ~ 3$
-- OBD2 connector                            ~ 3$
-- 12V → 5V  **DC-DC converter**             ~ 2$
+- **ESP32** (tested with ESP32‑WROOM‑32U) ~ 5$
+- **SN65HVD230 CAN Transceiver** ~ 3$
+- **OBD2 connector** ~ 3$
+- **12V → 5V DC‑DC converter** ~ 2$
 - Android or iOS smartphone
 
 ##### Wiring
@@ -57,11 +57,11 @@ Never connect 12V directly to the ESP32.
 
 The ESP32 creates its own WiFi network:
 
-- **SSID:** `ESP32_OBD` ** Change to your SSID
-- **Password:** `12345678` ** Change to your Password
+- **SSID:** `ESP32_OBD` ** (changeable in code)
+- **Password:** `12345678` ** (changeable in code)
 - **IP Address:** `192.168.4.1`
 
-After connecting with your phone, open in Browser:
+After connecting with your phone, open the following address in your Browser:
 192.168.4.1
 
 *** to be continued
