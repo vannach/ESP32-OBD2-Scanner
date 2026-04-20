@@ -1,11 +1,11 @@
 # ESP32-OBD2-Scanner
 
 ## 📁 Project Structure
-ESP32-OBD2-Scanner/
-├── src/        Arduino source code
-├── docs/       Schematics (PDF)
-├── images/     Pictures and screenshots
-└── README.md   Informations and instructions
+
+- src/        Arduino source code
+- docs/       Schematics (PDF)
+- images/     Pictures and screenshots
+- README.md   Informations and instructions
 
 
 A simple and standalone **ESP32-based OBD2 scanner** with a **WiFi web interface**.  
