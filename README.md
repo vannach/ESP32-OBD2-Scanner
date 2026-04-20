@@ -35,18 +35,18 @@ The ESP32 creates its own WiFi Access Point, allowing you to connect directly wi
 - Android or iOS smartphone
 
 ##### Wiring
-| OBD2 connector Pin 16 12V+ | DC-DC converter IN+ |
-| OBD2 connector Pin 4 + Bridge to Pin 5 GRN | DC-DC converter IN- |
+- OBD2 connector Pin 16 12V+ -> DC-DC converter IN+ 
+- OBD2 connector Pin 4 + Bridge to Pin 5 GRN -> DC-DC converter IN- 
 
-| DC-DC converter OUT+ | ESP32 5V |
-| DC-DC converter OUT- | ESP32 GND |
+- DC-DC converter OUT+ -> ESP32 5V 
+- DC-DC converter OUT- -> ESP32 GND 
 
-| CAN Transceiver TX | GPIO 21 |
-| CAN Transceiver RX | GPIO 22 |
-| CAN Transceiver 3.3V | ESP32 3.3V |
-| CAN Transceiver GND | ESP32 GND |
-| CAN Transceiver CANH | OBD2 connector Pin 6 |
-| CAN Transceiver CANL | OBD2 connector Pin 14 |
+- CAN Transceiver TX -> GPIO 21 
+- CAN Transceiver RX -> GPIO 22 
+- CAN Transceiver 3.3V -> ESP32 3.3V 
+- CAN Transceiver GND -> ESP32 GND 
+- CAN Transceiver CANH -> OBD2 connector Pin 6 
+- CAN Transceiver CANL -> OBD2 connector Pin 14 
 
 ⚠️ **Important:**  
 Never connect 12V directly to the ESP32.
